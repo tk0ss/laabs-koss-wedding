@@ -1,0 +1,17 @@
+:root {
+  --wine: #4d0011;
+  --burgundy: #7b1830;
+  --gold: #dbbe9b;
+  --cream: #f8f1d6;
+  --moss: #433319;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  color: var(--cream);
+}
+
+h1, h2 {
+    font-family: "Cormorant Garamond", serif;
+    
+}
