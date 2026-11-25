@@ -11,7 +11,31 @@ body {
   color: var(--cream);
 }
 
-h1, h2 {
-    font-family: "Cormorant Garamond", serif;
-    
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+#header > *:before {
+  background: var(--gold);
+}
+
+#header .content {
+  border-color: var(--gold);
+}
+
+#header .logo {
+  border-color: var(--gold);
+}
+
+#header nav ul {
+  border-color: var(--gold);
+}
+
+#header nav ul li {
+  border-left-color: var(--gold);
+}
+
+#header nav.use-middle:after {
+  background: var(--gold);
 }
