@@ -25,7 +25,9 @@ h2 {
 }
 
 #header .logo {
-  border-color: var(--gold);
+  border: none;
+  width: 15rem;
+  height: auto;
 }
 
 #header nav ul {
@@ -38,4 +40,14 @@ h2 {
 
 #header nav.use-middle:after {
   background: var(--gold);
+}
+
+#bg:after {
+  background-image: url(../../images/background-florals.jpeg);
+}
+
+#header .logo img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
